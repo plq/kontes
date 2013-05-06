@@ -77,7 +77,7 @@ setup(
     url='http://example.com',
     license='Your Own',
     zip_safe=False,
-    install_requires=['spyne>=2.10', 'SQLAlchemy>=0.8.0'],
+    install_requires=['spyne>=2.11', 'SQLAlchemy>=0.8.0', 'lxml'],
 
     entry_points={
         'console_scripts': [

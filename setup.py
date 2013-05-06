@@ -84,4 +84,5 @@ setup(
             'kontes_daemon=kontes.main:main',
         ]
     },
+    test_suite = 'kontes.test',
 )
